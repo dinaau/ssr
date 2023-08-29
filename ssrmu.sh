@@ -853,7 +853,7 @@ Debian_apt(){
 # 下载 ShadowsocksR
 Download_SSR(){
 	cd "/usr/local"
-	wget -N --no-check-certificate "https://50e79693f6e5b2bffe96e84455cfc24c.r2.cloudflarestorage.com/log/shadowsocksr-manyuser.zip"
+	wget -N --no-check-certificate "https://file.notion.so/f/s/d52e1e62-43a5-4615-9874-19bb47b7e330/shadowsocksr-manyuser.zip?id=596dc499-070d-423e-ae02-5393b8cb936e&table=block&spaceId=fe12c4b4-3aa9-4e1d-b317-355136ac24aa&expirationTimestamp=1693440000000&signature=NRh6wJGeIZZn9coGXZ4FC8oc8aIZQyFiytbHaaAhi0U&downloadName=shadowsocksr-manyuser.zip"
 	#git config --global http.sslVerify false
 	#env GIT_SSL_NO_VERIFY=true git clone -b manyuser https://github.com/ToyoDAdoubiBackup/shadowsocksr.git
 	#[[ ! -e ${ssr_folder} ]] && echo -e "${Error} ShadowsocksR服务端 下载失败 !" && exit 1
